@@ -1,0 +1,10 @@
+Host bastion
+  User ubuntu
+  Hostname 54.84.101.178
+  IdentityFile /home/pacifi/Downloads/bastionkey.pem
+
+Host webserver
+    User ubuntu
+    Hostname 10.0.1.20
+    IdentityFile /home/pacifi/Downloads/webserver.pem
+    ProxyCommand ssh -W %h:%p bastion
