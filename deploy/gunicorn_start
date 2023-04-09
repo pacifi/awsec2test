@@ -3,8 +3,8 @@
 NAME="portal"
 DJANGODIR=/apps/webapp/proyecto/webapp
 #DJANGODIR=/home/pacifi/djangoprojects/appweb/app/webapp
-USER=pacifi
-GROUP=pacifi
+USER=ubuntu
+GROUP=ubuntu
 NUM_WORKERS=3
 DJANGO_SETTINGS_MODULE=config.settings
 DJANGO_WSGI_MODULE=config.wsgi
